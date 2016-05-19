@@ -43,6 +43,7 @@ function initLog ()/*{{{ Initalizing log variables */
 	_LOG('*** '.$_SERVER['HTTP_X_EVENT_KEY'].' #'.$_SERVER['HTTP_X_HOOK_UUID'].' ('.$_SERVER['HTTP_USER_AGENT'].')');
 
 }/*}}}*/
+
 function initPayload ()/*{{{ Get posted data */
 {
 	global $PAYLOAD, $CONFIG, $PROJECTS;

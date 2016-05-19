@@ -1,27 +1,11 @@
 <?php
 
-/*{{{ v.150906.001 (0.0.1)
-
-	Bitbucket webhook interface.
-
-	Based on 'Automated git deployment' script by Jonathan Nicoal:
-	http://jonathannicol.com/blog/2013/11/19/automated-git-deployments-from-bitbucket/
-
-	See README.md and CONFIG.php
-
-	---
-	Igor Lilliputten
-	mailto: igor at lilliputten dot ru
-	http://lilliputtem.ru/
-
-}}}*/
-
-// Initalize:
 require_once('log.php');
 require_once('bitbucket.php');
 
 // Load config:
-include('CONFIG.php');
+include('config.php');
+include_once('Main.php');
 
 // Let's go:
 initLog(); // Initalize log variables
